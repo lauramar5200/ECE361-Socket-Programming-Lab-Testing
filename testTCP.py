@@ -12,7 +12,8 @@ Python test script for lab 3 assignment 1 to auto create number of clients to co
 2) Once it's running, then you can run this script.
     In another terminal, run: python3 testTCP.py
 
-NOTE: This uses python subprocesses, not threads. So there will be NUM_CLIENTS # of python processes created. Just be aware of this for system performance, probably don't go creating a million processes...
+NOTE: This uses python subprocesses, not threads. So there will be NUM_CLIENTS # of python processes created. 
+Just be aware of this for system performance, probably don't go creating a million processes...
 """
 import subprocess
 import time
